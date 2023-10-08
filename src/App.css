@@ -49,3 +49,59 @@ body {
   padding: 1rem 2rem;
   margin-bottom: 120px;
 }
+
+.default-button {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: white;
+  background-color: #27ae60;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.default-button:hover {
+  background-color: #175d34;
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.default-button:active {
+  background-color: #0a2715;
+}
+
+.ContactBtnEnabled {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: white;
+  background-color: #27ae60;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ContactBtnEnabled:hover {
+  background-color: #175d34;
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.ContactBtnEnabled:active {
+  background-color: #0a2715;
+}
+
+.ContactBtnDisabled {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: white;
+  background-color: #0c301b;
+  border: 0;
+
+  transition: 0.3s;
+}

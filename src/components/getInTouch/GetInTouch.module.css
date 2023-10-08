@@ -76,3 +76,9 @@ input:active {
 .formBtn:active {
   background-color: #0a2715;
 }
+
+.error {
+  background-color: rgba(120, 14, 14, 0.397);
+  padding: 10px;
+  margin-top: 10px;
+}

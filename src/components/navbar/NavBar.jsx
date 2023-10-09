@@ -20,7 +20,7 @@ function NavBar() {
         to="Intro"
         spy={true}
         smooth={true}
-        offset={-200}
+        offset={-150}
         duration={1000}
         className={style.HomeRestart}
       >
@@ -33,7 +33,7 @@ function NavBar() {
           to="About"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-230}
           duration={1000}
           className={style.navbarMenuItem}
         >
@@ -44,7 +44,7 @@ function NavBar() {
           to="Services"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-230}
           duration={1000}
           className={style.navbarMenuItem}
         >
@@ -55,7 +55,7 @@ function NavBar() {
           to="Contact me"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-140}
           duration={1000}
           className={style.navbarMenuItem}
         >
